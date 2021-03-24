@@ -1,10 +1,7 @@
-#ifndef TOWER_OF_HANOI_SOLVETOH_H
-#define TOWER_OF_HANOI_SOLVETOH_H
+#pragma once
 
 
 class SolveTOH {
 
 };
 
-
-#endif //TOWER_OF_HANOI_SOLVETOH_H
