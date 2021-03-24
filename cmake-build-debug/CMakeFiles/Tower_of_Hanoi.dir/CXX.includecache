@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/govin/Desktop/Tower_of_Hanoi/include/SolveTOH.h
+iostream
+-
+vector
+-
+
+C:/Users/govin/Desktop/Tower_of_Hanoi/src/main.cpp
+iostream
+-
+../include/SolveTOH.h
+C:/Users/govin/Desktop/Tower_of_Hanoi/include/SolveTOH.h
+
