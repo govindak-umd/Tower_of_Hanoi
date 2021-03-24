@@ -1,0 +1,10 @@
+#ifndef TOWER_OF_HANOI_SOLVETOH_H
+#define TOWER_OF_HANOI_SOLVETOH_H
+
+
+class SolveTOH {
+
+};
+
+
+#endif //TOWER_OF_HANOI_SOLVETOH_H
