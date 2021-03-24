@@ -1,17 +1,11 @@
 #pragma once
 #include<iostream>
+#include<vector>
 
 class SolveTOH {
 
-    private:
-
-        int num_disks;
-        int radii_array[];
-
     public:
 
-        void getDiskRadii();
-        void getSolution();
-        SolveTOH(int);
+        void getSolution(int, char, char, char);
 };
 

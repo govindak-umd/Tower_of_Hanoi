@@ -4,11 +4,10 @@
 int main(){
     std::cout << " --- Welcome to the Tower of Hanoi Problem --- " << std :: endl;
     std :: cout << " Enter the number of towers you need : " << std :: endl;
-    int num_towers;
-    std :: cin >> num_towers;
+    int num_disks;
+    std :: cin >> num_disks;
 
-    SolveTOH toh_solution(num_towers);
-    toh_solution.getDiskRadii();
-
+    SolveTOH toh_solution;
+    toh_solution.getSolution(num_disks, 'A','C','B');
 
 }

@@ -1,21 +1,12 @@
 #include "../include/SolveTOH.h"
 
-SolveTOH::SolveTOH(int n) {
-    num_disks = n;
-}
-
-void SolveTOH::getDiskRadii(){
-    for (int i = 0; i < num_disks; i++){
-        radii_array[i] = num_disks*(i+1);
+void SolveTOH::getSolution(int num_disks, char from, char to, char middle){
+    if (num_disks == 1){
+        std :: cout << "Move Disk "<< num_disks << " from "<< from << " to " << to << std::endl;
+        return;
     }
-
-    for (int i = 0; i < num_disks; i++){
-        std :: cout << radii_array[i] << std :: endl;
-    }
-
-}
-
-void SolveTOH::getSolution(){
-
+    getSolution(num_disks-1, from, middle, to);
+    std :: cout << "Move Disk "<< num_disks<< " from "<< from << " to " << to << std::endl;
+    getSolution(num_disks-1, middle, to, from);
 }
 
