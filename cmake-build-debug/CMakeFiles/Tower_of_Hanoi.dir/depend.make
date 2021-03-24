@@ -4,5 +4,6 @@
 CMakeFiles/Tower_of_Hanoi.dir/src/SolveTOH.cpp.obj: ../include/SolveTOH.h
 CMakeFiles/Tower_of_Hanoi.dir/src/SolveTOH.cpp.obj: ../src/SolveTOH.cpp
 
+CMakeFiles/Tower_of_Hanoi.dir/src/main.cpp.obj: ../include/SolveTOH.h
 CMakeFiles/Tower_of_Hanoi.dir/src/main.cpp.obj: ../src/main.cpp
 

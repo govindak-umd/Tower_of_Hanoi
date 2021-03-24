@@ -7,4 +7,8 @@ int main(){
     int num_towers;
     std :: cin >> num_towers;
 
+    SolveTOH toh_solution(num_towers);
+    toh_solution.getDiskRadii();
+
+
 }
